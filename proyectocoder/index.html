@@ -44,13 +44,30 @@
                             <a class="nav-link text-white" href="./pages/contacto.html">Contacto</a>
                         </li>
 
-                    </ul>
+                        <li class="nav-item dropdown text-white">
+                          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Nuestro contenido
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item nav-link  nav__boton__proximamente m-2 text-white" href="#">Peliculas</a></li>
+                            <li><hr class="dropdown-divider text-white"></li>
+                            <li><a class="dropdown-item nav-link  nav__boton__proximamente m-2 text-white" href="#">Series</a></li>
+                            <li><hr class="dropdown-divider text-white"></li>
+                            <li><a class="dropdown-item nav-link  nav__boton__proximamente m-2 text-white" href="#">Mas populares</a></li>
+                            <li><hr class="dropdown-divider text-white"></li>
+                            <li><a class="dropdown-item nav-link  nav__boton__proximamente m-2 text-white" href="#">Proximamente</a></li>
+                            <li><hr class="dropdown-divider text-white"></li>
+                            <li><a class="dropdown-item nav-link  nav__boton__proximamente m-2 text-white"  href="#">Nuevo</a></li>
+                          </ul>
+                        </li>
 
+                    </ul>
+  
                     <form class="d-flex ">
                       <i class="me-5 fa-solid fa-magnifying-glass tamañoIcono mt-2"></i>
                       <a href="./pages/perfil.html"><i class="me-3 fa-regular fa-user tamañoIcono mt-2"></i></a>
                     </form>
-                </div>
+                
             </div>
 
 
@@ -107,9 +124,9 @@
         </div>
 <!-- Fin de Carousel Index -->
 
-<!-- Nav Index OK  -->
-
-        <ul class=" container-xl nav nav-pills  justify-content-around mt-3 bg-light rounded-pill nav__proximamente">
+<!-- Nav Index OK  Esta navbar tiene otro objetivo, hacerle como una fluidez a la hora de buscar el contenido y agregar carouseles o visual distinta --> 
+      <div class="container-xl d-none d-md-block">
+        <ul class="nav nav-pills  justify-content-around mt-3 bg-light rounded-pill nav__proximamente">
           <li class="nav-item ">
             <a class="nav-link  nav__boton__proximamente " aria-current="page" href="#">Peliculas</a>
           </li>
@@ -126,6 +143,7 @@
             <a class="nav-link nav__boton__proximamente" href="#" >Nuevo</a>
           </li>
         </ul>
+      </div>
 <!-- Fin Nav Index OK  -->  
 <!-- Fotos OK  -->        
           <section class="container-xl sectionFondo mt-3 ">
