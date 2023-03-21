@@ -175,89 +175,49 @@
 .fondoPerfil{
     background-color: black;
 }
-.containerPerfil{
+
+.contenedor__inicial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5% ;
+}
+
+.contenedor__perfil{
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: black;
-    height: 100vh;
-    padding: 0 2px;
-    width: 100%;
-}
-
-.card-container{
-    display: flex;
-    width: 100%;
-    height: auto;
-    border-radius: 2px;
-    
-}
-
-.informacion-card{
+    width: 60vw;
+    padding: 50px 30px;
     background: white;
-    
-}
-
-.card-container-header, .informacion-card{
-    padding: 10px;
+    border-radius: 24px;
     text-align: center;
-
-}
-.card-containter-header a{
-    position: relative;
-    
+    justify-content: center;
 }
 
-.card-fotoPerfil{
-   
-    border-radius: 50%;
-    box-shadow: 0 0 0 ;
-    width: 200px;
+.contenedor__inicial__texto{
+    display: flex;
+    flex-direction: column;
 }
 
-.card-container-header a:hover .card-fotoPerfil{
-    box-shadow: 0 0 0 10px rgb(0, 0, 0, .1);
+.contenedor__perfil img{
+    max-width: 280px;
+    width: 28vw;
+    height: 400px;
+    object-fit: cover;
+    margin-right: 50px;
+    box-shadow: 0 60px 40px rgb(0 0 0 / 8%);
+    border-radius: inherit;
 }
 
-.card-container-header h2{
-    margin-top: 15px;
-    color: black;
+.contenedor__social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    margin-top: 2%;
 }
-.card-container-header h4{
-    margin-bottom: 20px;
-}
-
-.informacion-card{
-    position: relative;
-    
-}
-
-.informacion-card p{
-    margin: 0 30px;
-    
-}
-
-.informacion-card .social{
-    margin-top: 15px;
-}
-
-.informacion-card .social a{
-    display: inline-block;
-    padding: 0 20px;
-    color: black;
-}
-
-.card__clase{
-    margin-top: 25px;
-    margin-right: 42px;
-    
-
-}
-.card__datos{
-    display: inline-block;
-    padding: 0 20px;
-    
-} 
 
 /* Fin Perfil */
 
@@ -372,6 +332,29 @@
     }
 }
 
+@media screen and (max-width:900px){
+    .contenedor__perfil{
+        flex-direction: column;
+        text-align: center;
+        margin: 0 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 100%;
+    }
+
+    .contenedor__perfil img{
+        margin: -100px 0 30px 0;
+        width: 100%;
+    
+    }
+    .contenedor__social{
+
+        flex-direction: column;
+
+    }
+}
+
+
 @media screen and (max-width:600px){
     .card-container{
         display: block;
@@ -419,7 +402,10 @@
         display: none;
     }
 
+
 }
+
+
 
 
 
