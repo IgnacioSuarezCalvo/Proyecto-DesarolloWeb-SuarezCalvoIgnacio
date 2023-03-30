@@ -1,0 +1,30 @@
+.noticias_contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contenedor_principal__foto{
+    width: 200px;
+    height: 300px;
+}
+
+.contenedor__section1__fotos{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.contenedor__section1__fotos img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
