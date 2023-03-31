@@ -10,9 +10,8 @@
     <script src="https://kit.fontawesome.com/d6c0befb87.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../scss/estilos.css">
     <title>BCinema</title>
-
-
 </head>
+
 <body class="container-fluid fondoSobrenosotros"> 
 
   <header class="sticky-top">
@@ -72,62 +71,40 @@
 
   </header>
 
-<main class="container principal">
+  <main class="container-fluid principal">
       
-    <div class="d-flex flex-row rounded-pill barraTexto container-xl ">
-    <a  href=""  class="p-2 text-white barraTexto__anclas">HOME </a>
-    <a  href="" class="p-2 text-white barraTexto__anclas">SOBRE NOSOTROS</a>
+    <div class="d-flex flex-row">
+      <h1 class="p-2 text-white">Sobre nosotros</h1>
     </div>
-        <section class="container-xl mt-2 ">
-            <div class="row gx-5 gy-3 ">
 
-              <div class="col-sm-12 col-md-12 col-lg-4 contenedorBcinema bg-light">
-               <div class="fotoSobrenosotros"><img src="../assets/img/sobrenosotrosfoto.jpg" alt=""></div>
-              </div>
-              <div class="col-sm-12 col-md-12 col-lg-4  textoBcinema bg-light ">
+    <section class="container-xl mt-2 ">
+      <div class="row gx-3 gy-3 justify-content-around">
+        <div class="col-sm-12 col-md-12 col-lg-4 contenedorBcinema">
+          <div class="fotoSobrenosotros"><img src="../assets/img/sobrenosotrosfoto.jpg" alt=""></div>
+        </div>
 
-                <div>
-                  <h4 class="tituloBcinema ">Informacion general</h4>
-                  <p class=" tituloBcinema ">Políticas de la empresa</p>
-                  <p class=" tituloBcinema ">Calificaciones</p>
-                  <p class=" tituloBcinema ">¿Cuál es mi usuario?</p>
-                  <p class=" tituloBcinema ">¿Tienen instagram?</p>
-                  <p class=" tituloBcinema ">Pregunta 5</p>
-                  <p class=" tituloBcinema ">Pregunta 6</p>
-                  <p class=" tituloBcinema ">Pregunta 7</p>
-
-                </div>
-              </div>
-
-              <div class="col-sm-12 col-md-12 col-lg-4 textoBcinema bg-light ">
-
-                <div class="p-1 ">
-                  <h5 class="mt-1 tituloBcinema ">BCinema</h5>
-                  <p class=" textoBcinema "> Soy Ignacio , fundador de BCinema. Nuestro viaje comenzó cuando empece a estudiar diseño y tenia un gran amor con las peliculas y series. Estábamos tratando de resolver un  problema que veia en todos lados de Argentina un amigo me impulso, el resto es historia.
-                  </p>
-                  <br>
-                  <br>
-                  <h5 class="mt-1 tituloBcinema ">PROBLEMA</h5>
-                  <p class="textoBcinema ">Todos los días estaba plagado de agotamiento clásico: dolores de cabeza frecuentes, falta de concentración y poca energía. Sin embargo, pero el impulso de poder encontrar la pelicula o serie ideal no faltaba. Todos los dias tenia el mismo problema y era que no podia encontrar en mi tiempo libre una pelicula para estar comodo.
-                
+        <div class="col-sm-12 col-md-12 col-lg-6 textoBcinema bg-secondary rounded-3">
+          <div class="p-1 ">
+            <h5 class="mt-1 tituloBcinema text-white">BCinema</h5>
+            <p class=" textoBcinema  text-white m-2 mt-3"> Soy Ignacio , fundador de BCinema. Nuestro viaje comenzó cuando empece a estudiar diseño y tenia un gran amor con las peliculas y series. Estábamos tratando de resolver un  problema que veia en todos lados de Argentina un amigo me impulso, el resto es historia.
+            </p>
+            <br>
+            <br>
+            <h5 class="mt-1 tituloBcinema text-white">PROBLEMA</h5>
+            <p class="textoBcinema text-white m-2 mt-3">Todos los días estaba plagado de agotamiento clásico: dolores de cabeza frecuentes, falta de concentración y poca energía. Sin embargo, pero el impulso de poder encontrar la pelicula o serie ideal no faltaba. Todos los dias tenia el mismo problema y era que no podia encontrar en mi tiempo libre una pelicula para estar comodo.
                     Nos comprometimos no solo a agregar mas contenido, sino también a crear un lugar donde se pueda debatir y puedas dar tu opinion acerca de las peliculas que uno ve. Estara disponible cuando uno la ve, entre mas cosas.
-                  </p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-                </div>
+    <section class="container-xl  mt-3">  
+      <div class="d-flex justify-content-center">
+              <h2 class="p-2 text-white d-none d-sm-block">Opiniones</h2>
+      </div>
 
-
-              </div>
-              
-
-              </div>
-
-            </div>
-          </section>
-
-          <section class="container principal mt-3">
-
-            <h4 class="text-white mt-1  d-none d-sm-block">Opiniones</h4>
-            <div id="carouselExampleControls" class=" sectionFondo carousel carousel-dark slide d-none d-sm-block" data-bs-ride="carousel ">  
+      <div id="carouselExampleControls" class="carousel carousel-dark slide d-none d-md-block d-sm-block " data-bs-ride="carousel ">  
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <div class="cards-wrapper">
@@ -148,6 +125,7 @@
                               <i class="fa-solid fa-star"></i>
                             </div>
                           </div>
+
                           <div class="cardSobrenosotros" >
                             <div class="image-wrapper">
                                 <img src="../assets/img/fotopersona2.jpg" class="rounded-pill" alt="...">
@@ -164,6 +142,7 @@
                               <i class="fa-solid fa-star"></i>
                             </div>
                           </div>
+
                           <div class="cardSobrenosotros" >
                             <div class="image-wrapper"> 
                                 <img src="../assets/img/fotopersona3.jpg" class="rounded-pill" alt="...">
@@ -181,22 +160,7 @@
                             </div>
                           </div>
 
-                          <div class="cardSobrenosotros ultimocardSobrenosotros" >
-                            <div class="image-wrapper"> 
-                                <img src="../assets/img/fotopersona3.jpg" class="rounded-pill"  alt="...">
-                            </div>
-                            <div class="card-body cardSobrenosotros">
-                              <h5 class="card-title text-white">Romilly Larry</h5>
-                              <p class="card-text text-white">Buena recomendaciones</p>
-                            </div>
-                            <div>
-                              <i class="fa-solid fa-star text-white"></i>
-                              <i class="fa-solid fa-star text-white"></i>
-                              <i class="fa-solid fa-star text-white"></i>
-                              <i class="fa-solid fa-star text-white"></i>
-                              <i class="fa-solid fa-star"></i>
-                            </div>
-                          </div>
+
                     </div>
                   </div>
                   
@@ -218,6 +182,7 @@
                               <i class="fa-solid fa-star"></i>
                             </div>
                           </div>
+
                           <div class="cardSobrenosotros" >
                             <div class="image-wrapper">    
                                 <img src="../assets/img/fotopersona7.jpg" class="rounded-pill" alt="...">
@@ -234,6 +199,7 @@
                               <i class="fa-solid fa-star text-white"></i>
                             </div>
                           </div>
+
                           <div class="cardSobrenosotros" >
                             <div class="image-wrapper">
                                 <img src="../assets/img/fotopersona8.jpg" class="rounded-pill"  alt="...">
@@ -252,22 +218,7 @@
                           </div>
 
 
-                          <div class="cardSobrenosotros ultimocardSobrenosotros" >
-                            <div class="image-wrapper"> 
-                                <img src="../assets/img/fotopersona3.jpg" class="rounded-pill"  alt="...">
-                            </div>
-                            <div class="card-body cardSobrenosotros">
-                              <h5 class="card-title text-white">Romilly Larry</h5>
-                              <p class="card-text text-white">Buena recomendaciones</p>
-                            </div>
-                            <div>
-                              <i class="fa-solid fa-star text-white"></i>
-                              <i class="fa-solid fa-star text-white"></i>
-                              <i class="fa-solid fa-star text-white"></i>
-                              <i class="fa-solid fa-star text-white"></i>
-                              <i class="fa-solid fa-star"></i>
-                            </div>
-                          </div>
+
                     </div>
                   </div>
 
@@ -324,21 +275,7 @@
                             </div>
                           </div>
 
-                          <div class="cardSobrenosotros ultimocardSobrenosotros" >
-                            <div class="image-wrapper"> 
-                                <img src="../assets/img/fotopersona12.jpg" class="rounded-pill" alt="...">
-                            </div>
-                            <div class="card-body cardSobrenosotros">
-                              <h5 class="card-title text-white">Romilly Larry</h5>
-                              <p class="card-text text-white">Le falta mas contenido</p>
-                            </div>
-                            <div>
-                              <i class="fa-solid fa-star text-white"></i>
-                              <i class="fa-solid fa-star text-white"></i>
-                              <i class="fa-solid fa-star"></i>
-                              <i class="fa-solid fa-star"></i>
-                              <i class="fa-solid fa-star"></i>
-                            </div>
+
                         
                     </div>
                   </div>
@@ -346,22 +283,18 @@
 
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
+                  <span class="visually-hidden ">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
-              </div>
+      </div>
 
-          </section>
-        
-
-          
-
+    </section>
   </main>
 
-  <footer class="colorNav text-white piePagina">
+  <footer class="text-white ">
       
         <div class="row">
             <div class="col-4 alinear">

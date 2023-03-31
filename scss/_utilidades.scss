@@ -3,38 +3,3 @@
     color: $color-secundario;
     text-decoration: none;
 }
-
-.barraTexto{
-    margin-left: 2px;
-    margin-right: 20px;
-}
-
-.barraTexto__anclas{
-    margin-left: 10px;
-    text-decoration: none;
-    
-}
-
-.image-wrapper img{
-    max-width: 100%;
-    max-height: 100%;
-}
-
-@media screen and (min-width:568px){
-
-    .cards-wrapper{
-        display: flex;
-        margin-top: 2%;
-    }
-
-    .card{
-        margin: 0 .5em;
-        width: calc(100%/2);
-    }
-
-    .image-wrapper{
-        width: 18vw;
-        margin: 0 auto;
-    }
-    
-}
