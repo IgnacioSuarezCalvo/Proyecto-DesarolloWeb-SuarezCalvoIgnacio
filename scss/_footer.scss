@@ -1,12 +1,14 @@
-.piePagina{
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    height: 4rem;
-    width: 100%;
+
+.footer{
+    .piePagina{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        height: 4rem;
+        .alinear{
+            text-align: center;
+            font-size: 20px;
+        }
+    }
 }
 
-.alinear{
-    text-align: center;
-    font-size: 20px;
-}

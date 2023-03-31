@@ -1,7 +1,6 @@
 .fondoIndex{
-    background-color: $color-primario;
+    @extend .fondoSobrenostros;
     height: 180vh;
-    width: 100%;
 }
 
 .fondoSobrenosotros{
@@ -10,15 +9,15 @@
 }
 
 .fondoNoticias{
-    background-color: $color-primario;
+    @extend .fondoSobrenostros;
     height: 160vh;
 }
 
 .fondoContacto{
-    background-color: $color-primario;
+    @extend .fondoSobrenostros;
     height: 160vh;
 }
 
 .fondoPerfil{
-    background-color: $color-primario;
+    @extend .fondoSobrenostros;
 }

@@ -1,9 +1,13 @@
-.colorNav{
-    background-color: black;
-    opacity: 90%;
+.header{
+    .colorNav{
+        background-color: $color-primario;
+        opacity: 90%;
+        .dropdown-menu{
+            background-color: $color-primario !important;
+        }
+    }
+
 }
-.dropdown-menu{
-    background-color: black !important;
-}
+
 
 

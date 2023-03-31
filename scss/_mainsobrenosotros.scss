@@ -2,54 +2,54 @@
     display: flex;
     align-items:center;
     flex-direction: column;
+    .contenedorBcinema{
+        @extend .textoBcinema;
+        .fotoSobrenosotros{
+            width: auto;
+            img{
+        
+                width: 100%;
+                height: 100%;
+                object-fit:cover;
+            }
+        }
+    }
+    .textoBcinema{
+        display: flex;
+        text-align: justify;
+        align-items: center;
+        justify-content: center;
+        .tituloBcinema{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+    }
+    .cardSobrenosotros{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
 }
 
 
-.fotoSobrenosotros{
-    width: auto;
-}
 
-.fotoSobrenosotros img{
-    
-    width: 100%;
-    height: 100%;
-    object-fit:cover;
-}
 
-.textoSobrenosotros{
-    width: 100%;
-    height: 100%;
-}
+ 
 
-.cardSobrenosotros{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
 
-.tituloBcinema{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
-.textoBcinema{
-    display: flex;
-    text-align: justify;
-    align-items: center;
-    justify-content: center;
-    
-}
-.preguntasBcinema{
-    display: flex;
-    text-align:center;
-    align-items: center;
-}
+
+
+
+
+
 
 
 @media screen and (min-width:568px){
