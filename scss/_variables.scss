@@ -6,3 +6,19 @@ $justify-texto:center;
 
 $tipografia-principal:'Roboto', serif;
 $tipografia-secundaria:'Times New Roman' Times, serif;
+
+
+$map-flex:(
+    flex:flex,
+    row:row,
+    column:column,
+    center:center,
+);
+
+$estilos-colores:(
+    negro:black,
+    blanco:white,
+    gris:grey,
+    azul:blue,
+
+)
