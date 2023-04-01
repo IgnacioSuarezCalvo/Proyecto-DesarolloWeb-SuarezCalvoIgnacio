@@ -1,20 +1,20 @@
 .fondoIndex{
-    background-color: black;  
+    background-color:$color-primario;  
 }
 
 .fondoSobrenosotros{
-    background-color: black;
+    @extend .fondoIndex;
 }
 
 .fondoNoticias{
-    background-color: black;
+    @extend .fondoIndex;
 }
 
 .fondoContacto{
-    background-color: black;
+    @extend .fondoIndex;
 }
 
 .fondoPerfil{
-    background-color: black;
+    @extend .fondoIndex;
     
 }
