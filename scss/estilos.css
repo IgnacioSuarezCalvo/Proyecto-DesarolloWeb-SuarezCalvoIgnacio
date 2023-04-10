@@ -187,12 +187,11 @@
   align-items: center;
 }
 .noticias_contenedor .contenedor_principal__foto {
-  width: 20%;
+  width: 30%;
   height: auto;
 }
 .noticias_contenedor .contenedor_principal__foto .contenedor__section1__fotos {
   display: flex;
-  flex-direction: row;
   justify-items: center;
   justify-content: center;
   align-items: center;
@@ -207,6 +206,13 @@
      object-fit: cover;
 }
 
+@media screen and (max-width: 922px) {
+  .contenedor_principal__fotos {
+    display: flex;
+    align-items: center;
+    width: 70%;
+  }
+}
 /* Como los dos estan a la misma altura*/
 .testoprueba {
   font-family: "Roboto", sans-serif;
