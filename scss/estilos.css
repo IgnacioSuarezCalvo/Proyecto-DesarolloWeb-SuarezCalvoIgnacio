@@ -1,8 +1,10 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,100;1,300&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 .tamañoIcono {
@@ -206,6 +208,10 @@
 }
 
 /* Como los dos estan a la misma altura*/
+.testoprueba {
+  font-family: "Roboto", sans-serif;
+}
+
 .tituloBcinemaContacto {
   display: flex;
   justify-content: center;
