@@ -1,5 +1,5 @@
 .noticias_contenedor{
-    display: flex;
+    display: $contenedor-flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -7,12 +7,7 @@
         width: 30%;
         height: auto;
         .contenedor__section1__fotos{
-            display: flex;
-            
-            justify-items: center;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
+            @include flexible(row,justify,center);
             width: 100%;
             height: 100%;
             img{
@@ -29,7 +24,7 @@
 
 @media screen and (max-width:922px){
 .contenedor_principal__fotos{
-display: flex;
+display: $contenedor-flex;
 align-items: center;
 width: 70%;
 }

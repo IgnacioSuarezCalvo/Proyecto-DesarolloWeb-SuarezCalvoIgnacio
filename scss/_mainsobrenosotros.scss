@@ -1,5 +1,5 @@
 .principal{
-    display: flex;
+    display: $contenedor-flex;
     align-items:center;
     flex-direction: column;
     .contenedorBcinema{
@@ -14,13 +14,13 @@
         }
     }
     .textoBcinema{
-        display: flex;
+        display: $contenedor-flex;
         text-align: justify;
         align-items: center;
         justify-content: center;
         opacity: 90%;
         .tituloBcinema{
-            display: flex;
+            display: $contenedor-flex;
             justify-content: center;
             align-items: center;
             margin-left: 1rem;
@@ -28,10 +28,10 @@
         }
     }
     .cards-wrapper{
-        display: flex;
+        display: $contenedor-flex;
         justify-content: space-around;
         .cardSobrenosotros{
-            display: flex;
+            display: $contenedor-flex;
             flex-direction: column;
             flex-wrap: wrap;
             justify-content: center;
@@ -46,7 +46,7 @@
 
 @media screen and (min-width:568px){
     .cards-wrapper{
-        display: flex;
+        display: $contenedor-flex;
         margin-top: 2%;
         .image-wrapper{
             width: 20vw;

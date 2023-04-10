@@ -4,14 +4,14 @@
 }
 
 .tituloBcinemaContacto{
-    display: flex;
+    display: $contenedor-flex;
     justify-content: center;
     align-items: center;
     margin-left: 1rem;
     margin-right: 1rem;
 }
 .textoBcinemaContacto{
-    display: flex;
+    display: $contenedor-flex;
     flex-direction: column;
     text-align: justify;
     align-items: center;

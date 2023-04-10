@@ -191,7 +191,7 @@
   height: auto;
 }
 .noticias_contenedor .contenedor_principal__foto .contenedor__section1__fotos {
-  display: flex;
+  @in display: $contenedor-flex;
   justify-items: center;
   justify-content: center;
   align-items: center;
