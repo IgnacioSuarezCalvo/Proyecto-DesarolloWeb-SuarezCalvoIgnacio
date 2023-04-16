@@ -7,7 +7,10 @@
         width: 30%;
         height: auto;
         .contenedor__section1__fotos{
-            @include flexible(row,center,center);
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
             width: 100%;
             height: 100%;
             img{

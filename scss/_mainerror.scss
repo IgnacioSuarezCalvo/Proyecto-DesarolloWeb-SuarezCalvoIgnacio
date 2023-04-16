@@ -1,0 +1,52 @@
+.mainerror{
+    height: 920px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    .contenedorError{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+
+    }
+    .contenedorIconos{
+        display: flex;
+        flex-direction:column;
+        .fontIcono{
+            font-size: 1000%;
+        }
+        .fontletra{
+            font-size: 1450%;
+            margin-top: 3rem;
+        }
+
+    }
+    .contenedorLetra{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        padding-left: 2%;
+
+    }
+   
+}
+
+@media screen and (max-width:855px){
+    .contenedorError{
+        height: 930px;
+        flex-direction:column;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+    .contenedorLetra{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        align-items: center;
+        text-align: center;
+    }
+    
+}
