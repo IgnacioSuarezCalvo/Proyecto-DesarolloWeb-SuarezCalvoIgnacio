@@ -8,6 +8,7 @@
     <meta name="keywords" content="Bcinema, Cine, Pelisculas, Favorito, Posteo ">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/d6c0befb87.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
@@ -67,8 +68,8 @@
                     </ul>
 
                     <form class="d-flex ">
-                      <i class="me-5 fa-solid fa-magnifying-glass tamañoIcono mt-2"></i>
-                      <a href="./pages/perfil.html"><i class="me-3 fa-regular fa-user tamañoIcono mt-2"></i></a>
+                      <!-- <i class="me-5 fa-solid fa-magnifying-glass tamañoIcono mt-2"></i> -->
+                      <a href="./pages/perfil.html"><i class="me-3 fa-regular fa-user tamañoIcono mt-2 perfil"></i></a>
                     </form>
                 
             </div>
@@ -149,7 +150,7 @@
     
     <section class="container-xl mt-3 ">
       <div class="d-flex justify-content-center" >
-        <h1 class="text-white mt-1">Proximamente</h1>
+        <h1 class="text-white mt-1 " data-aos="fade-right">Proximamente</h1>
       </div>
 
       <div class="container-xl mt-3">
@@ -167,7 +168,7 @@
 
     <section class="container-xl mt-2 ">
       <div class="d-flex justify-content-center">
-        <h2 class="text-white mt-1 d-none d-sm-block ">Recientes</h2>
+        <h2 class="text-white mt-1 d-none d-sm-block" data-aos="fade-right">Recientes</h2>
       </div>
 
       <div id="carouselExampleControls" class="contenedor__card carousel carousel-dark slide d-none d-sm-block" data-bs-ride="carousel ">  
@@ -249,7 +250,7 @@
 
 
  
-    <footer class="text-white">
+    <footer class="text-white mb-2">
       <div class="row">
           <div class="col-4 alinear mt-2">
             <a  href="https://www.instagram.com" target="_blank"><i class="tamañoIcono fa-brands fa-instagram instagram"></i></a>
@@ -265,7 +266,10 @@
       </div>
     </footer>
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
