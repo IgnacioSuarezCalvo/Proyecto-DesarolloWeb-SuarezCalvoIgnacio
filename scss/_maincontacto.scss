@@ -18,3 +18,20 @@
     justify-content: center;
     
 }
+
+@media screen and (max-width:510px){
+    .mapa{
+        width:320px;
+        height:200px;
+        padding: 1rem;
+        
+    }
+    
+}
+@media screen and (max-width:314px){
+    .mapa{
+        display: none;
+        
+    }
+    
+}
