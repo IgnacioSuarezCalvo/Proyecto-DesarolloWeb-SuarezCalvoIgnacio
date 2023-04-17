@@ -213,6 +213,9 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
+.noticias_contenedor .contenedor_principal__foto .contenedor__section1__fotos img:hover {
+  transform: scale(1.1);
+}
 
 @media screen and (max-width: 922px) {
   .contenedor_principal__fotos {
