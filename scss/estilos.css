@@ -363,5 +363,23 @@ footer {
 }
 footer .alinear {
   text-align: center;
-  font-size: 20px;
+  font-size: 40px;
+}
+footer .alinear .instagram {
+  font-size: 40px;
+}
+footer .alinear .instagram:hover {
+  color: #205c9d;
+}
+footer .alinear .facebook {
+  font-size: 40px;
+}
+footer .alinear .facebook:hover {
+  color: #5374ac;
+}
+footer .alinear .whatsapp {
+  font-size: 40px;
+}
+footer .alinear .whatsapp:hover {
+  color: #59b15e;
 }/*# sourceMappingURL=estilos.css.map */
