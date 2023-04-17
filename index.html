@@ -89,8 +89,15 @@
             </div>
 
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./assets/img/morbius.jpg" class="d-block w-100 p-1" alt="morbius">
+              <div class="carousel-item active">            
+                <picture>
+                  <source media="(max-width: 799px)" srcset="./assets/img/morbius-799.jpg">
+                  <source media="(min-width: 800px)" srcset="./assets/img/morbius-800.jpg">
+
+                  <img src="./assets/img/morbius-800.jpg" alt="Morbius" class="d-block w-100 p-1">
+                </picture>
+                
+
                 <div class="carousel-caption d-none d-md-block">
                   <h5>MORBIUS</h5>
                   <!--<p>Nuevo superheroe arranca una nueva etapa.</p>-->
@@ -98,7 +105,12 @@
               </div>
 
               <div class="carousel-item">
-                <img src="./assets/img/interestelar.jpg" class="d-block w-100 p-1" alt="interestelar">
+                <picture>
+                  <source media="(max-width: 799px)" srcset="./assets/img/interestelar-799.jpg">
+                  <source media="(min-width: 800px)" srcset="./assets/img/interestelar-800.jpg">
+
+                  <img src="./assets/img/interestelar-800.jpg" alt="Interestelar" class="d-block w-100 p-1">
+                </picture>
                 <div class="carousel-caption d-none d-md-block">
                   <h5>INTERESTELAR</h5>
                   <!--<p>Atrapados en una nueva aventura en el espacio.</p>-->
@@ -106,7 +118,12 @@
               </div>
 
               <div class="carousel-item">
-                <img src="./assets/img/screem6.jpg" class="d-block w-100 p-1" alt="SCREAM">
+                <picture>
+                  <source media="(max-width: 700px)" srcset="./assets/img/scream-799.jpeg">
+                  <source media="(min-width: 701px)" srcset="./assets/img/scream-800.jpg">
+
+                  <img src="./assets/img/scream-800.jpeg" alt="Scream" class="d-block w-100 p-1">
+                </picture>
                 <div class="carousel-caption d-none d-md-block">
                   <h5>SCREAM 6</h5>
                   <p></p>
