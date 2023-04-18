@@ -283,7 +283,7 @@
      object-fit: cover;
 }
 .contenedorimagenperfil .imagenperfil:hover {
-  transform: scale(1.3);
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 767px) {
